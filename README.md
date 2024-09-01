@@ -1,3 +1,14 @@
+#  "让信息自由流动是进步的引擎！"--Yann LeCun
+
+##  快速呈现YouTube视频的多语言总结，让信息获取更便捷，让进步更高效。
+
+通过以下方式实现这一目标：
+1. 利用数据库存储视频的总结内容，浏览器插件会优先显示匹配的视频总结；如果数据库中没有对应的总结，则调用 LLM 生成总结并存储到数据库中。
+2. 浏览器插件还会收集当前播放的 YouTube 视频的 10 个推荐视频，进行并行总结并存储到数据库中。
+
+##  这一切都基于 Glarity 开源代码实现。
+
+
 # Glarity - Summary for Google/YouTube with ChatGPT
 
 Glarity Summary: an open-source ChatGPT Summary extension for YouTube, Google, Twitter, and any webpage. It provides cross-language summaries to effortlessly summarize videos, searches, PDFs, emails, and webpages. It supports free side-by-side translations, email writing assistance, Web Content Q&A, and much more
